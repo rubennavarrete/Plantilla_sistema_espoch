@@ -45,28 +45,31 @@ a:focus {
   background: #f8f9fa;
   display: flex;
   justify-content: space-between;
-  border-bottom: 4px solid #d31a2b;
-  padding: 5px 15px;
+  border-bottom: 2px solid #d31a2b;
 }
 
 .header__logo {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
-.header__logo img {
-  margin-right: 10px;
-  width: 30px;
+.img__logo {
+  width: 50px;
+  background: #d31a2b;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__logo h6 {
   cursor: pointer;
-  padding: 0.5rem;
   margin: 0;
   background: #f8f9fa;
-  color: #495057;
-  border: 1px solid #dee2e6;
-  border-radius: 6px;
+  color: #000;
+  font-size: 18px;
+  padding-left: 10px;
 }
 
 .header__menu_responsive {
@@ -77,6 +80,7 @@ a:focus {
   display: flex;
   align-items: center;
   gap: 10px;
+  padding-right: 15px;
 }
 
 .dropdown-toggle:hover {
@@ -125,6 +129,7 @@ a:focus {
   background: #222;
   transition: all 0.5s ease;
   background: #ececec;
+  border: 1px solid #ccc;
 }
 
 #wrapper.toggled #sidebar-wrapper {
